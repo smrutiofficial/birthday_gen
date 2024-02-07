@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background:#40A2D8;
+}
+section{
+  height: 100vh;
+  width: 100vw;
+}
+.mid{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mid h1{
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+#btn{
+  background: #0B60B0;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  margin-top: 2.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  padding:1.2rem 2rem ;
+}

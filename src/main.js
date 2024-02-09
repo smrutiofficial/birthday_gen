@@ -17,13 +17,13 @@ function rt() {
         { opacity: 0, },
         { opacity: 1, duration: 0.3, stagger: 1 });
     gsap.fromTo("#wish",
-        { opacity: 0, x: 200 },
-        { opacity: 1, x: 0, duration: 1, stagger: 1, delay: 5 });
+        { opacity: 0, y: 200 },
+        { opacity: 1, y: 0, duration: 1, stagger: 1, delay: 6 });
     gsap.fromTo(".imgcon",
-        { opacity: 0, scale: 0 },
-        { opacity: 1, scale: 1, delay: 5.8 });
+        { opacity: 0,},
+        { opacity: 1, delay: 8,duration: 3 });
     gsap.fromTo("#cake",
-        { opacity: 0, x: -2000 },
-        { opacity: 1, x: 0, delay: 6.8, duration: 1 });
+        { opacity: 0, y: 200 },
+        { opacity: 1, y: -70, delay: 9.3, duration: 1 });
 
 }

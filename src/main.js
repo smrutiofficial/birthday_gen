@@ -21,9 +21,9 @@ function rt() {
         { opacity: 1, y: 0, duration: 1, stagger: 1, delay: 6 });
     gsap.fromTo(".imgcon",
         { opacity: 0,},
-        { opacity: 1, delay: 8,duration: 3 });
+        { opacity: 1, delay: 8,duration: 6 });
     gsap.fromTo("#cake",
         { opacity: 0, y: 200 },
-        { opacity: 1, y: -70, delay: 9.3, duration: 1 });
+        { opacity: 1, y: -70, delay: 10.3, duration: 1 });
 
 }
